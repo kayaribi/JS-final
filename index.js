@@ -175,7 +175,7 @@ function renderCart() {
                         </div>
                     </td>
                         <td>NT$${item.product.price}</td>
-                        <td><button type="button" class="minusBtn">-</button>${item.quantity}<button type="button" class="addBtn">+</button></td>
+                        <td><button type="button" class="minusBtn" style="margin-right: 10px;">-</button>${item.quantity}<button type="button" class="addBtn" style="margin-left: 10px;">+</button></td>
                         <td>NT$${item.product.price * item.quantity}</td>
                         <td>
                             <a href="#" class="material-icons discardBtn">
